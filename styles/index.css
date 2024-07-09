@@ -11,9 +11,7 @@ body {
     font-weight: 300;
     font-style: normal;
     align-items: center;
-    /* justify-content: center;
-    display: flex;
-    flex-direction: column; */
+
 }
 
 /* banner desine */
@@ -90,15 +88,132 @@ body {
 }
 
 #t-p {
-    font-family: 'Arial Rounded MT Bold','Trebuchet MS', sans-serif;
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif;
     font-size: 32px;
     font-weight: bold;
     line-height: 56px;
-   margin-top: 100px;
+    margin-top: 100px;
     text-align: center;
     text-transform: capitalize;
 }
 
-.frt-bann #t-p span{
+.frt-bann #t-p span {
     color: red;
+}
+
+/* fft-bann starts */
+.fft-bann {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.fft-bann1 {
+    margin-top: 80px;
+    height: 128px;
+    width: 393px;
+}
+
+.fft-bann2 {
+    margin-top: 80px;
+    height: 96px;
+    margin-right: 0;
+}
+
+/* sxt-bann starts */
+.sxt-bann {
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(../images/Group\ 44.png), url(../images/Group\ 75.png), url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center right, bottom left, bottom;
+}
+
+/* svt-bann starts */
+.svt-bann {
+    width: 1320px;
+    height: 1163px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.si {
+    width: 424px;
+    height: 424px;
+}
+
+.sxt-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+/* eit-ban starts */
+.eit-bann {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* ..........sud-btn......... */
+.subbtn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.eit-btn {
+    border: none;
+    width: 210px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+}
+
+.sub {
+    border: none;
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(164, 164, 164);
+}
+
+
+/* footer starts */
+.footer {
+    max-width: 1600px;
+    max-height: 500px;
+    background-color: rgb(7, 2, 17);
+    padding: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
